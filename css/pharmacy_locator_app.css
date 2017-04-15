@@ -1,0 +1,138 @@
+﻿.map-wrapper {
+
+}
+.pharmacy-locator {
+    display: none;    
+}
+
+.search-results {
+}
+
+.search-footer {
+    margin-top: 15px;
+}
+
+.search-results .item {
+    height: auto;
+    border-bottom: dotted 1px #000000;
+    font: 14px/1.4 Roboto;
+    color: #4c4c4c;
+    box-sizing: border-box;
+    position: relative;
+	border:2px solid #dddddd;
+	border-bottom:0px;
+	padding: 15px 30px 15px 40px;
+	background-color:#f2f2f2;
+}
+
+.search-results .item:first-of-type{
+    counter-reset: results;
+}
+
+.search-results .item:last-of-type{
+    border-bottom:2px solid #dddddd;
+}
+.search-results ul {
+	overflow-y:auto;
+	height:469px;
+	width:100%;
+}
+
+.search-results .item:before {
+    counter-increment: results;
+    content: counter(results);
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    background: url("../images/sprite.png") no-repeat -469px 0;
+    display: inline-block;
+    width: 23px;
+    height: 28px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.search-results .item.blank:before {
+    content: none;
+}
+.search-results .item.blank {
+    height: 50px;
+}
+
+.search-results .item .title {
+    font-weight: 600;    
+	margin:0px 0px 3px;
+	font-size:14px;
+	color: #3d6fb6;
+}
+
+.search-results .item.highlight {
+	background-color:#f9f9f9;
+}
+
+.search-results .item .address {
+    float: left;
+}
+
+.search-results .item .info {
+    float: right;
+}
+
+.search-results .item .info .distance {
+	font-size:14px;
+	color:#3d6fb6;
+    display: block;
+	font-weight:600;	
+	text-align:right;
+}
+
+.search-results .item.highlight .title,
+.search-results .item.highlight .info .distance {
+	color: #59B7F4;
+}
+
+.search-results .item .info .store-num {
+    display: block;
+	margin-bottom:20px;
+	font-size:14px;
+	color:#666;
+	text-align:right;
+}
+
+.search-results .item .info .directions {
+    display: block;	
+	color:#3c6fb6;
+	font-size:12px;
+	text-decoration:none;
+	text-align:right;
+}
+
+.search-results .item .open-hours {
+	width:100%;
+	margin-top:15px;
+	
+}
+
+.search-results .item.highlight .open-hours {
+	display:table;
+}
+
+.search-results .item .open-hours th {
+	color:#666666;
+	font-size:14px;
+}
+
+.search-results .item .open-hours td {
+	color:#999;
+	font-size:13px;
+}
+
+
+
+
+
+
+
+

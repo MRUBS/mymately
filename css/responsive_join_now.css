@@ -1,0 +1,383 @@
+@media screen and (max-width:1160px) {
+    .box {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:960px) {
+
+    /*
+    General
+    */
+	.graydiv {
+		width: 100%;        
+	}
+
+    .wrapper {
+        padding: 0 30px;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    a.logo.desktop img {
+        height: auto;
+        width: 158px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .box header h1 {
+        font-size: 40px;
+    }
+
+    .box .form h2 {
+        font-size: 16px;
+    }
+
+    label.checkbox {
+        font-size: 14px;
+    }
+
+    .page {
+        margin-bottom: -60px;
+    }
+
+    footer, .page:after {
+        height: 60px;
+    }
+
+    div.plan-table.narrow {
+        width: 100%;
+    }
+
+    /*
+    Billing Info
+    */
+
+    .box .form div.col.cc {
+        width: 48%!important;
+        margin-right: 4%!important;
+    }
+
+    .box .form div.col.expiration {
+        width: 48%!important;
+    }
+
+    .box.billinginfo .form > div > div.expiration > h2 {
+        margin-left: 0!important;
+    }
+
+    .box.billinginfo .form .expiration > div.col:first-of-type {
+        margin-right: 8%;
+    }
+
+    .box.billinginfo .form .expiration > div.col {
+        margin-left: 0;
+        width: 46%!important;
+    }
+
+    .mobile .cvn input {
+        width: 50%;
+    }
+
+    .mobile .cvn a {
+        top: 10px!important;
+        right: auto!important;
+        left: 53%;
+        bottom: auto;!important
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .box header h1 {
+        font-size: 32px;
+    }
+
+    .box .form div > label.error {
+        font-size: 11px;
+    }
+
+    .box.join .form div.agree > label.error {
+        top:-12px
+    }
+
+    /* Choose Plan */
+    ul.options li {
+        max-width: 47%;
+    }
+
+    ul.options li p {
+        padding-left: 13px;
+        padding-right: 20px;
+    }
+
+    /*Tests*/
+    ul.sliders li div.label {
+        width: 58%;
+    }
+    ul.sliders li div.controls {
+        width: 75px;
+    }
+    ul.sliders li div.value {
+        width: calc(42% - 75px);
+    }
+
+    a.button.next,
+    a.button.back {
+        min-width: 100px;
+        width: 45%;
+    }
+
+    ul.sliders li div.value {
+        width: calc(42% - 75px);
+    }
+
+}
+
+@media screen and (max-width:480px) {
+	.lightbox {
+		width:250px;
+		margin-left:-125px;
+	}
+
+    body {
+        background-color: #f7f6f6;
+    }
+
+    header.site-header {
+        margin-top: 20px;
+    }
+
+    .box {
+        border: 1px solid #e5e5e5;
+        padding-bottom: 41px;
+    }
+
+    .backstretch {
+        display: none;
+    }
+
+    .box .form h2 {
+        margin-bottom: 12px;
+    }
+
+    .wrapper {
+        padding: 0 20px;
+    }
+
+    .box .form div.col {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .box .form div.col:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .box .form > div:first-of-type {
+        margin-top: 18px;
+    }
+
+    .box .form > div {
+        margin-top: 20px;
+    }
+
+    .box header {
+        overflow: hidden;
+    }
+
+    .box header h1 {
+        font-size: 26px;
+        line-height: 1.2;
+        height: auto;
+        padding-top: 5px;
+        box-sizing: border-box;
+        max-width: 75%;
+        display: table;
+        float: left;
+    }
+
+    .box header h1 span {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .box header div,
+    .box header div.small{
+        font-size: 16px;
+        line-height: 2.6;
+        float: right;
+    }
+
+    .box .form div > label.error {
+        top: -24px
+    }
+
+    /*Join*/
+    .citystate div.col {
+        width: 100%!important;
+    }
+
+    .box.join .form a.password {
+        top:131px
+    }
+
+    #re_password-error {
+        right: 0;
+    }
+
+    /* Choose Plan */
+    ul.options li {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .choose .form .sep:nth-child(2) {
+        padding-bottom: 0;
+        border: 0;
+    }
+
+    /*Tests*/
+   ul.sliders li div.label {
+      font-size: 16px;
+      height: auto;
+      line-height: 16px !important;
+      position: relative;
+      top: 5px;
+      width: 60%;
+      vertical-align:top;
+      padding-bottom:10px;
+   }
+   ul.sliders li div.item {
+      position: relative;
+   }
+   ul.sliders li div.controls {
+      width: 40%;
+      text-align:right;
+   }
+   ul.sliders li div.value {
+      width: 35%;
+      margin-top:0px;
+      position:absolute;
+      left:6%;
+      bottom:-10px;
+      text-align:left;
+   }
+
+ul.sliders li div.value span {
+      line-height: 1;
+   }
+   ul.sliders li.total div.item::after{
+      content: none;
+   }
+   ul.sliders li.total div.controls {
+      width:0px
+   }
+   ul.sliders li.total div.value {
+      width:40%;
+      text-align:right;
+      position:static;      
+   }
+    ul.sliders li.total div.value span {
+        position: static;
+    }
+    ul.sliders li.total div.label {
+        line-height: 50px!important;
+        height: 50px!important;
+        position: static;
+    }
+
+    .box .form div.col.expiration,
+    .box .form div.col.cc {
+        width: 100%!important;
+    }
+
+    /*Summary*/
+    .box.summary div.sep p {
+        padding-left: 0;
+    }
+
+    span.fee {
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .box.summary .grandtotal p {
+        font-size: 16px;
+    }
+
+    /* Forgot Password */
+    .forgot.box p.big {
+        font-size: 16px;
+    }
+
+    .box.forgot header h1 {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:363px) {
+    /*Billing*/
+    .box.billinginfo .form > div:first-of-type {
+        background-size: 100% auto;
+    }
+}
+
+@media screen and (min-width:961px) {
+    .tablet,
+    .mobile {
+        display: none;
+    }
+
+    .desktop.tablet,
+    .desktop {
+        display: block;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:960px) {
+    .mobile,
+    .desktop {
+        display: none!important;
+    }
+
+    .tablet {
+        display: block!important;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:660px) {
+	.billinginfo a.button.submit {
+		width:52%;
+		padding:0px;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.billinginfo a.button.next {
+		width:50%;
+		padding:0px;
+	}
+   .box.billinginfo .form > div:first-of-type {
+      background-size: 100% auto;
+   }
+    .desktop {
+        display: none!important;
+    }
+
+    .tablet {
+        display: none!important;
+    }
+
+    .mobile {
+        display: block!important;
+    }
+}

@@ -1,0 +1,286 @@
+.bluetile {
+  width:240px;
+  height:210px;
+  position: relative;
+  background-color: rgb(60, 112, 183);
+  box-sizing: border-box;
+  float: left;
+}
+.redtile {
+  width:240px;
+  height:210px;
+  position: relative;
+  background-color: rgb(231, 42, 74);
+  box-sizing: border-box;
+  float: left;
+}
+.greytile {
+  width:240px;
+  height:210px;
+  position: relative;
+  background-color: rgb(96, 96, 96);
+  box-sizing: border-box;
+  float: left;
+}
+.maintile {
+	width: 20%;
+}
+.supporter {
+  padding: 25px;
+  text-align: center;
+  font-family: Roboto, "sans serif";
+  color: #fff;
+}
+.name {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.value {
+  font-size: 2.8em;
+}
+.bluetile .sociblock-1, .bluetile .sociblock-2, .bluetile .sociblock-3 {
+   background-color: rgb(77, 131, 205);
+}
+.redtile .sociblock-1, .redtile .sociblock-2, .redtile .sociblock-3 {
+   background-color: rgb(227, 69, 101);
+}
+.greytile .sociblock-1, .greytile .sociblock-2, .greytile .sociblock-3 {
+   background-color: rgb(117, 117, 117);
+}
+.sociblock-1 {
+  width: 100%;
+  padding: 9px 0px 5px 0px;
+  bottom: 0px;
+  position: absolute;
+}
+.sociblock-2 {
+  width: 100%;
+  padding: 9px 0px 5px 0px;
+  bottom: 40px;
+  position: absolute;
+}
+.sociblock-3 {
+  width: 100%;
+  padding: 9px 0px 5px 0px;
+  bottom: 80px;
+  position: absolute;
+}
+.insta-img, .fb-img, .twit-img {
+  padding: 0px 7px 0px 10px;
+  float:left;
+}
+.insta-handle, .fb-handle, .twit-handle {
+  font-family: Roboto, "sans serif";
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #fff;
+  line-height: 60%;
+}
+.supportertiles {
+  display: none;	
+}
+.form-header {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-size: 18px;
+  color: #3c70b7;
+  line-height: 1;
+  font-weight: normal;	
+}
+.supportpanel form input {
+	box-sizing: border-box;
+    height: 40px;
+    font: 14px/40px Roboto, "sans serif";
+    background-color: #f7f6f6;
+    border: solid 1px #adadad;
+    color: #4c4c4c;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-indent: 18px;
+}
+.supportpanel .text {
+    padding-left: 0px;    
+    font-weight: normal;
+}
+.supportpanel .confirmation {
+	color:#3DC000;
+	padding:0px 0px 10px 0px;
+	font-size:18px;
+	margin-bottom:2px;
+}
+.supportpanel .confirmation:before{
+	content:"\e013";
+	font-family:"Glyphicons Halflings";	
+	left: 0px;
+	font-size: 18px;
+}
+.supportpanel .error-message {
+	color:#ff0000;
+	padding:5px 0px 10px 0px;
+	font-size:18px;
+	margin-bottom:5px;
+}
+.supportpanel .error-message:before {
+	content:"\e014";
+	font-family:"Glyphicons Halflings";    
+    left: 0px;
+    font-size: 18px;
+}
+.supportpanel .button {
+    color: #3c6fb6;
+    text-transform: uppercase;
+    font-size: 17px;
+    height: 40px;
+    line-height: 36px;
+    border: solid 2px #3c6fb6;
+    display: inline-block;
+    padding: 0px 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    min-width: 202px;
+    text-align: center;	
+}
+.small-button {
+    color: #3c6fb6;
+    text-transform: uppercase;
+    font-size: 17px;
+    height: 40px;
+    line-height: 36px;
+    border: solid 2px #3c6fb6;
+    display: inline-block;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+}	
+.supportform {
+	width:60%;
+	margin:0 auto;
+}
+.optin {
+	
+}
+.optout {
+	
+}
+.supporter-sort-link {
+	float: right;
+	font-size: 16px;
+}
+.supporter-sort-link a:hover {
+	text-decoration:none;
+}
+
+
+	
+.bluetile-mobile {
+  width:290px;
+  height:40px;
+  position: relative;
+  background-color: rgb(60, 112, 183);
+  box-sizing: border-box;
+  float: left;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+.greytile-mobile {
+  width:290px;
+  height:40px;
+  position: relative;
+  background-color: rgb(96, 96, 96);
+  box-sizing: border-box;
+  float: left;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+.redtile-mobile {
+  width:290px;
+  height:40px;
+  position: relative;
+  background-color: rgb(231, 42, 74);
+  box-sizing: border-box;
+  float: left;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+.supporter-mobile {
+  padding-left: 10px;
+  font-family: Roboto, "sans serif";
+  color: #fff;
+}
+.name-mobile{
+  font-size: 0.7em;
+  text-align: left;
+  position: relative;
+  padding: 4px 0;
+  float: left;
+  text-transform: uppercase;
+}
+.value-mobile {
+  padding: 2px 0;
+  width: 60px;
+  font-size: 1.6em;
+  position: relative;
+  float: left;
+  text-align: left;
+}
+.bluetile-mobile .sociblock-mobile-1, .bluetile-mobile .sociblock-mobile-2, .bluetile-mobile .sociblock-mobile-3 {
+   background-color: rgb(77, 131, 205);
+}
+.redtile-mobile .sociblock-mobile-1, .redtile-mobile .sociblock-mobile-2, .redtile-mobile .sociblock-mobile-3 {
+   background-color: rgb(227, 69, 101);
+}
+.greytile-mobile .sociblock-mobile-1, .greytile-mobile .sociblock-mobile-2, .greytile-mobile .sociblock-mobile-3 {
+   background-color: rgb(117, 117, 117);
+}
+.sociblock-mobile-1 {
+  width: 40px;
+  height: 40px;
+  right: 0px;
+  position: absolute;
+}
+.sociblock-mobile-2 {
+  width: 40px;
+  height: 40px;
+  right: 43px;
+  position: absolute;
+}
+.sociblock-mobile-3 {
+  width: 40px;
+  height: 40px;
+  right: 86px;
+  position: absolute;
+}
+.insta-img-mobile, .fb-img-mobile, .twit-img-mobile {
+  padding: 11px 6px 6px 11px;
+  float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
