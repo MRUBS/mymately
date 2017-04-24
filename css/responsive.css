@@ -1074,11 +1074,12 @@
     }
 	footer .bottom > p{
 		border-bottom:2px solid #999999;
-		height:30px;
+		/*height:30px;*/
 		line-height:30px;
 	}
 	footer .bottom > p.no-border-bottom{
 		border-bottom:0px;
+		margin-bottom:0px;
 	}
 	
 	.heading-text {		
