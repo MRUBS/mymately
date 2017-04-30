@@ -1,10 +1,10 @@
 <?php
 return [
     'subject' => [
-        'prefix' => '[Reserve Membership]'
+        'prefix' => 'Reserve Membership'
     ],
     'emails' => [
-        'to'   => '',
+        'to'   => 'Brandon.greenberg@matelyhealth.com',
         'from' => ''
     ],
     'messages' => [

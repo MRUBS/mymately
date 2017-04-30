@@ -115,8 +115,8 @@
                 }.bind(this));
 
                 formData = {
-                    'firstname'    : document.querySelector('input[name="form-name"]').value,
-                    'lastname'    : document.querySelector('input[name="form-name"]').value,
+                    'firstname'    : document.querySelector('input[name="fname"]').value,
+                    'lastname'    : document.querySelector('input[name="lname"]').value,
                     'email'   : document.querySelector('input[name="form-email"]').value
                 };
 
@@ -126,7 +126,20 @@
         feedback: function (data) {
             if (!data.success) {
                 if (data.errors.name) {
-                    var name = document.querySelector('input[name="form-name"]').parentNode,
+                    var name = document.querySelector('input[name="fname"]').parentNode,
+                        error;
+
+                    this.addClass(name, 'has-error');
+                    error = this.template(
+                        '<span class="help-block">{report}</span>', {
+                        report: data.errors.name
+                    });
+
+                    name.insertAdjacentHTML('beforebegin', error);
+                }
+				
+                if (data.errors.name) {
+                    var name = document.querySelector('input[name="lname"]').parentNode,
                         error;
 
                     this.addClass(name, 'has-error');

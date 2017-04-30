@@ -58,15 +58,15 @@ $config->load('./config/config.php');
 					<p>Please provide us with your email address and we'll keep you updated on our progess and launch date.</p>
 					</div>
 					<div class="form-group" id="name-field">
-						<label for="form-name" class="col-lg-2 control-label"><?php echo $config->get('fields.firstname'); ?></label>
+						<label for="form-first-name" class="col-lg-2 control-label"><?php echo $config->get('fields.firstname'); ?></label>
 						<div class="form-input col-lg-10">
-							<input type="text" class="form-control" id="form-name" name="form-name" placeholder="<?php echo $config->get('fields.firstname'); ?>">
+							<input type="text" class="form-control" id="form-first-name" name="fname" placeholder="<?php echo $config->get('fields.firstname'); ?>">
 						</div>
 					</div>
 					<div class="form-group" id="name-field">
-						<label for="form-name" class="col-lg-2 control-label"><?php echo $config->get('fields.lastname'); ?></label>
+						<label for="form-last-name" class="col-lg-2 control-label"><?php echo $config->get('fields.lastname'); ?></label>
 						<div class="form-input col-lg-10">
-							<input type="text" class="form-control" id="form-name" name="form-name" placeholder="<?php echo $config->get('fields.lastname'); ?>">
+							<input type="text" class="form-control" id="form-last-name" name="lname" placeholder="<?php echo $config->get('fields.lastname'); ?>">
 						</div>
 					</div>
 					<div class="form-group" id="email-field">
