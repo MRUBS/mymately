@@ -60,19 +60,19 @@ $config->load('./config/config.php');
 					<div class="form-group" id="name-field">
 						<label for="form-first-name" class="col-lg-2 control-label"><?php echo $config->get('fields.firstname'); ?></label>
 						<div class="form-input col-lg-10">
-							<input type="text" class="form-control" id="form-first-name" name="fname" placeholder="<?php echo $config->get('fields.firstname'); ?>">
+							<input type="text" class="cst-form-control" id="form-first-name" name="fname" placeholder="<?php echo $config->get('fields.firstname'); ?>">
 						</div>
 					</div>
 					<div class="form-group" id="name-field">
 						<label for="form-last-name" class="col-lg-2 control-label"><?php echo $config->get('fields.lastname'); ?></label>
 						<div class="form-input col-lg-10">
-							<input type="text" class="form-control" id="form-last-name" name="lname" placeholder="<?php echo $config->get('fields.lastname'); ?>">
+							<input type="text" class="cst-form-control" id="form-last-name" name="lname" placeholder="<?php echo $config->get('fields.lastname'); ?>">
 						</div>
 					</div>
 					<div class="form-group" id="email-field">
 						<label for="form-email" class="col-lg-2 control-label"><?php echo $config->get('fields.email'); ?></label>
 						<div class="form-input col-lg-10">
-							<input type="email" class="form-control" id="form-email" name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>">
+							<input type="email" class="form-control" id="form-email" name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
 						</div>
 					</div>
 					<div class="form-group submit-btn">

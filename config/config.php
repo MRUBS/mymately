@@ -16,8 +16,8 @@ return [
 					. '<a href="/index.html" class="btn btn-default cst-success-btn">BACK TO HOME</a>'
 					. '</div>',
         'validation' => [
-            'emptyfirstname'    => 'Name is required.',
-            'emptylastname'    => 'Name is required.',
+            //'emptyfirstname'    => 'Name is required.',
+            //'emptylastname'    => 'Name is required.',
             'emptyemail'   => 'Email is invalid.'
         ]
     ],

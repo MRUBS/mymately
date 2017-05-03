@@ -26,13 +26,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         die("Header injection detected");
     }
 
-    if (empty($fname)) {
-        $errors['firstname'] = $config->get('messages.validation.emptyfirstname');
-    }
+    //if (empty($fname)) {
+    //    $errors['firstname'] = $config->get('messages.validation.emptyfirstname');
+    //}
 	
-    if (empty($lname)) {
-        $errors['lastname'] = $config->get('messages.validation.emptylastname');
-    }
+    //if (empty($lname)) {
+    //    $errors['lastname'] = $config->get('messages.validation.emptylastname');
+    //}
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $errors['email'] = $config->get('messages.validation.emptyemail');
