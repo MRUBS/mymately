@@ -52,7 +52,7 @@ $config->load('./config/config.php');
 		<!-- Start of Form -->
 		<div class="container">
 			<div class="col-md-6 col-md-offset-3">
-				<form enctype="application/x-www-form-urlencoded;" id="reserve-membership" class="form-horizontal" role="form" method="post">
+				<form enctype="application/x-www-form-urlencoded;" id="reserve-membership" class="form-horizontal" role="form" method="post" onsubmit="parent.scrollTo(0, 0); return true">
 					<div class="reserve-text col-md-12">
 					<h1><span class="reserve-bold">Reserve</span> Membership</h1>
 					<p>Please provide us with your email address and we'll keep you updated on our progess and launch date.</p>
