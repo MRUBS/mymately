@@ -130,10 +130,14 @@ span.reserve-bold {
 }
 .reserve-text p {
 	font-family: 'Roboto', Sans-Serif;
-	font-weight: 300;
-	font-size: 18px;
-	line-height: 28px;
-	padding-bottom: 25px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 25px;
+    max-width: 450px;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
 }
 
 /* Form */
@@ -162,9 +166,12 @@ label.col-lg-2.control-label {
     display: none;
 }
 input#form-first-name, input#form-last-name, input#form-email {
-    text-align: center;
+	text-align: center;
     height: 40px;
     border-radius: 10px;
+    max-width: 350px;
+    float: none;
+    margin: auto;
 }
 button.btn.btn-default.reserve-btn {
     background-color: transparent;
@@ -204,7 +211,7 @@ span.help-block {
 
 .cst-success {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .cst-success-img {

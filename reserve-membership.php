@@ -15,7 +15,7 @@ $config->load('./config/config.php');
     <title>Reserve Membership</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
     <meta name="description" content="Mately offers simple, cutting-edge, and affordable STD testing. Receive your results online, share them with others as you wish, and enable Mately member badges on your dating site profiles.">
     <link rel="shortcut icon" href="images/favicon.ico" />    
     <link rel="stylesheet" href="css/reset.css">
@@ -52,7 +52,7 @@ $config->load('./config/config.php');
 		<!-- Start of Form -->
 		<div class="container">
 			<div class="col-md-6 col-md-offset-3">
-				<form enctype="application/x-www-form-urlencoded;" id="reserve-membership" class="form-horizontal" role="form" method="post" onsubmit="parent.scrollTo(0, 0); return true">
+				<form enctype="application/x-www-form-urlencoded;" id="reserve-membership" class="form-horizontal" role="form" method="post" onsubmit="parent.scrollTo(0,0); return false">
 					<div class="reserve-text col-md-12">
 					<h1><span class="reserve-bold">Reserve</span> Membership</h1>
 					<p>Please provide us with your email address and we'll keep you updated on our progess and launch date.</p>
